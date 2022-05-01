@@ -22,7 +22,7 @@ class Deck:
             self.cards[i] = temp'''
 
     def deal(self):
-        if len(self.cards > 0):
+        if len(self.cards) > 0:
             return self.cards.pop()
 
     def add_cards(self,new_cards):
