@@ -11,7 +11,7 @@ class Card(pygame.sprite.Sprite):
 
         self.images = {
             True: pygame.image.load("cards/{} {}.png".format(suit,rank)),
-            False: pygame.image.load("/Users/dhyanthacker/Documents/PycharmProjects/Pyramid Game/cards/Back Blue 1.png")
+            False: pygame.image.load("cards/Back Blue 1.png")
 
         }
 
